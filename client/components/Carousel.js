@@ -44,17 +44,16 @@ export default function Carousel( { items, category, postings, userLocation } ) 
               <p className="title is-4">{item.name}</p>
               <p className="subtitle">{item.owner.town}</p>
               <p className="small-text">Created <Moment fromNow ago>{item.created_at}</Moment> ago by {item.owner.username}.</p>
-              </div>
+            </div>
           </div>
 
           <footer className="card-footer">
-              <div className="carousel-footer container">
+            <div className="carousel-footer container">
               <Link to={`/items/${item.id}`}>
                 <div className="color-link-button button"><span className="baggle">Baggle!</span></div>
               </Link>
-              </div>
-              </footer>
-            
+            </div>
+          </footer>
           
         </div>
       </div>

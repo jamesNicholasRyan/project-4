@@ -6,7 +6,7 @@
   "scripts": {
     "start": "webpack-dev-server --mode=development",
     "seed": "pipenv run python server/seed.py",
-    "build": "python -m pipenv install ; npm i ; webpack --mode production",
+    "build": "pipenv install ; npm i ; webpack --mode production",
     "serve:react": "webpack-dev-server",
     "serve:flask": "pipenv run flask run"
   },
