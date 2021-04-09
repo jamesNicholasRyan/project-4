@@ -1,5 +1,5 @@
 ### ![GA](https://cloud.githubusercontent.com/assets/40461/8183776/469f976e-1432-11e5-8199-6ac91363302b.png) General Assembly, Software Engineering Immersive
-# BAGGLES
+# BAGGLE
 
 ## Overview
 This was my last project of the course. I was tasked with creating a full stack web application, where I must create a back-end using Python and Flask, and a font-end using JS and React. I decided to create a cashless bartering e-commerce site. I felt that the functionality of swapping items created an oportunity to create interesting endpoints in my server. 
@@ -157,10 +157,17 @@ async function Swap(offeredItemid) {
   location.reload()
 }
 ```
+# Conclusion
+
+## Key Learnings
+This was my first attempt at creating a website with a Python, Flask back-end. Having just completed a project using the MERN stack it was a little strange at first, but once I was in the swing of things the benefits to using SQL and Python were obvious. I thoroughly enjoyed making the self-referencing relationships between the different elements of the site. The ability to do this over a ‘simpler’ MongoDB has opened lots of potential for future projects. 
+
+Using Python for the first time was also an interesting situation. Although Python in a stack like this is used mainly for the server architecture, I can see lots of potential for using Python in front-end data analysis. I enjoyed using Python, especially for its 'simple', easy-to-read syntax.
+
 
 ## Challenges
-- The most challenging aspect of the project was implementing the self-referencing relationships between the items and users. I had worked briefly on self-refernecing tables before, however, not to this scale. It took me a while to realise that the relationships would not 'show up' without referencing the relationships correctly in the serializers. In the end, I am happy with how it turned out despite how difficult it may have been. 
-- 
+- The most challenging aspect of the project was implementing the self-referencing relationships between the items and users. I had worked briefly on self-referencing tables before, however, not to this scale. It took me a while to realise that the relationships would not 'show up' without referencing the relationships correctly in the serializers. In the end, I am happy with how it turned out despite how difficult it may have been. 
+- The swapping system on the front-end was one of the core aspects of the site, implementing this was a vital task to complete the project. There was some difficulty and confusion when attempting to create dynamic buttons, which would show for different users depending on ownership of the item. Once I had worked this out, with visuals indicating which items had been offered already, I felt that the core of the project was complete.
 
 ## Screenshots
 ![](https://i.imgur.com/wCCKshk.png)
